@@ -547,6 +547,9 @@ img {
 }
 
 .testi-card {
+  display: flex;
+  flex-direction: column;
+  height: auto;
   flex: 0 0 calc((100% - 60px) / 4);
   min-width: calc((100% - 60px) / 4);
   border-radius: 12px;
@@ -566,8 +569,17 @@ img {
 .testi-photo {
   width: 100%;
   height: 185px;
-  background-color: #a89a8e;
-  box-shadow: inset 0 5px 8px rgba(0, 0, 0, 0.14);
+  margin: 0;
+  flex: 0 0 185px;
+  overflow: hidden;
+}
+
+.testi-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .testi-body {
@@ -827,7 +839,7 @@ img {
 }
 
 .footer-roof-svg {
-  margin-left: 34px;
+  margin-left: 15px;
   margin-bottom: -4px;
 }
 

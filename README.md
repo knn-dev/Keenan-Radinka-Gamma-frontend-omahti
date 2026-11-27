@@ -7,4 +7,5 @@ Fitur :
 - 
 
 Penggunaan AI : 
-- 
+- Pembuatan logo seperti : instagram, facebook, twitter/X, Linkedin, FE, dan OmahTI
+-  

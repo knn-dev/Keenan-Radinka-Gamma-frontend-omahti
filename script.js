@@ -1,7 +1,6 @@
 // ==================== PORTFOLIO SHOW MORE / SHOW LESS ====================
 function togglePortfolio() {
   const rowsWrapper = document.getElementById('portofolio-rows');
-  const extraRow = rowsWrapper.querySelector('.extra-row');
   const text = document.getElementById('showmore-text');
   const arrow = document.getElementById('showmore-arrow');
 

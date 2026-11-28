@@ -19,7 +19,7 @@ Fitur :
 4. FAQ Accordion Interaktif
    - Setiap item pertanyaan dapat diklik untuk membuka atau menutup panel jawaban secara dinamis (hanya satu jawaban yang terbuka pada satu waktu) disertai perubahan arah ikon panah (› / ⌄).
 5. Desain Responsif
-   - Penyesuaian tata letak untuk layar tablet dan mobile (900px, 768px, dan 520px), mencakup penyusunan ulang hero section, jumlah kolom portofolio, jumlah kartu testimonial yang tampil (4 → 2 → 1 kartu), serta tata letak form kontak dan footer.
+   - Penyesuaian tata letak untuk layar tablet dan mobile (900px, 768px, dan 520px), mencakup penyusunan ulang hero section, jumlah kolom portofolio, jumlah kartu testimonial yang tampil (4 -> 2 -> 1 kartu), serta tata letak form kontak dan footer.
 
 
 Penggunaan AI : 

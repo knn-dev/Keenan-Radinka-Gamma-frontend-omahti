@@ -1,4 +1,4 @@
-// ==================== PORTFOLIO SHOW MORE / SHOW LESS ====================
+// PORTOFOLIO SHOW MORE/LESS
 function togglePortfolio() {
   const rowsWrapper = document.getElementById('portofolio-rows');
   const text = document.getElementById('showmore-text');
@@ -23,7 +23,7 @@ function togglePortfolio() {
   }
 }
 
-// ==================== TESTIMONIAL CAROUSEL ====================
+// TESTIMONIAL CAROUSEL
 let testimonialIndex = 0;
 
 function getCarouselMetrics() {
@@ -62,7 +62,7 @@ function slideTestimonial(direction) {
   updateCarouselPosition();
 }
 
-// ==================== FAQ ACCORDION ====================
+// FAQ ACCORDION
 function toggleFaq(button) {
   const item = button.parentElement;
   const answer = item.querySelector('.faq-answer');
@@ -89,7 +89,7 @@ function toggleFaq(button) {
   }
 }
 
-// ==================== SMOOTH SCROLL & INIT ====================
+// SMOOTH SCROLL & INIT
 document.addEventListener('DOMContentLoaded', function () {
   const navLinks = document.querySelectorAll('.nav-links a');
 

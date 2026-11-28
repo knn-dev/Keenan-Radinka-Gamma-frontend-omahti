@@ -1,7 +1,7 @@
 # Keenan-Radinka-Gamma-frontend-omahti
 Identitas :
-- Keenan Radinka Gamma
-- 26/586091/PA/24654
+1. Keenan Radinka Gamma
+2. 26/586091/PA/24654
 
 Fitur :
 1. Sticky Navbar & Smooth Scrolling dengan Offset

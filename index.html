@@ -8,7 +8,7 @@
 </head>
 <body>
 
-  <!-- ==================== NAVBAR ==================== -->
+  <!-- NAVBAR -->
   <nav class="navbar" id="navbar">
     <div class="nav-container">
       <a href="#hero" class="nav-logo">OmahFE</a>
@@ -26,7 +26,7 @@
     </div>
   </nav>
 
-  <!-- ==================== HERO SECTION ==================== -->
+  <!-- HERO SECTION -->
   <section class="hero" id="hero">
     <div class="hero-container">
       <div class="hero-content">
@@ -44,14 +44,12 @@
         </p>
       </div>
       <div class="hero-logo">
-        <!-- Rounded FE graphic matching Figma vector asset -->
+        <!-- ICON -->
         <svg class="fe-svg-logo" viewBox="0 0 320 265" width="320" height="265" aria-label="FE Logo">
-          <!-- Red dot top-left -->
           <circle cx="14" cy="20" r="6.5" fill="#F03318"/>
-          <!-- Red 4-point star top-right -->
           <path d="M292 14 L297 30 L313 35 L297 40 L292 56 L287 40 L271 35 L287 30 Z" fill="#F03318"/>
 
-          <!-- Layer 3 (furthest light-blue shadow) -->
+          <!-- SHADOW 1 -->
           <g transform="translate(14, 14)" fill="#89B1D0">
             <!-- F -->
             <rect x="28" y="34" width="28" height="162" rx="14"/>
@@ -64,7 +62,7 @@
             <rect x="148" y="168" width="106" height="28" rx="14"/>
           </g>
 
-          <!-- Layer 2 (middle pale-blue shadow) -->
+          <!-- SHADOW 2 -->
           <g transform="translate(7, 7)" fill="#BDD3E5">
             <!-- F -->
             <rect x="28" y="34" width="28" height="162" rx="14"/>
@@ -77,7 +75,7 @@
             <rect x="148" y="168" width="106" height="28" rx="14"/>
           </g>
 
-          <!-- Layer 1 (foreground dark navy FE) -->
+          <!-- MAIN LOGO FE -->
           <g fill="#172A3A">
             <!-- F -->
             <rect x="28" y="34" width="28" height="162" rx="14"/>
@@ -90,21 +88,21 @@
             <rect x="148" y="168" width="106" height="28" rx="14"/>
           </g>
 
-          <!-- Red rounded underline bar -->
+          <!-- ICON -->
           <rect x="108" y="236" width="74" height="9" rx="4.5" fill="#F03318"/>
         </svg>
       </div>
     </div>
   </section>
 
-  <!-- ==================== ABOUT SECTION ==================== -->
+  <!-- ABOUT SECTION -->
   <section class="about" id="about">
-    <!-- Single unified arch + pink glow background (zero seam) -->
+    <!-- Background element for visual effect -->
     <div class="about-backdrop" aria-hidden="true"></div>
 
-    <!-- Social Media Icons inside upper pink arch -->
+    <!-- ICON SOCIAL MEDIA -->
     <div class="social-icons">
-      <!-- Facebook (rounded square + hollow f) -->
+      <!-- Facebook -->
       <a href="https://www.facebook.com/OmahTI.UGM/" class="social-icon" aria-label="Facebook" target="_blank">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round">
           <rect x="2" y="2" width="20" height="20" rx="4"/>
@@ -119,7 +117,7 @@
           <circle cx="17.2" cy="6.8" r="0.9" fill="currentColor" stroke="none"/>
         </svg>
       </a>
-      <!-- X / Twitter (rounded square + hollow X) -->
+      <!-- X / Twitter -->
       <a href="https://x.com/omahti_ugm" class="social-icon" aria-label="X/Twitter" target="_blank">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round">
           <rect x="2" y="2" width="20" height="20" rx="4"/>
@@ -127,7 +125,7 @@
           <path d="M16.8 6.5L12.7 11.2M11.3 12.8L7.2 17.5"/>
         </svg>
       </a>
-      <!-- LinkedIn (rounded square + outlined in) -->
+      <!-- LinkedIn -->
       <a href="https://www.linkedin.com/in/keenan-radinka-gamma-265565397" class="social-icon" aria-label="LinkedIn" target="_blank">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round">
           <rect x="2" y="2" width="20" height="20" rx="4"/>
@@ -165,14 +163,13 @@
     </div>
   </section>
 
-  <!-- ==================== PORTFOLIO SECTION ==================== -->
+  <!-- PORTFOLIO SECTION -->
   <section class="portofolio" id="portofolio">
     <div class="portofolio-container">
       <h2 class="portofolio-title">
         <span class="portofolio-title-dark">See Our Latest </span><span class="portofolio-title-red">Portofolio</span>
       </h2>
       <div class="portofolio-rows" id="portofolio-rows">
-        <!-- Row 1: always visible (4 cards) -->
         <div class="portofolio-row">
           <div class="portofolio-card">
             <div class="portofolio-img">
@@ -200,7 +197,6 @@
           </div>
         </div>
 
-        <!-- Row 2+: hidden by default, dynamically sized to match Row 1 total width -->
         <div class="portofolio-row extra-row">
           <div class="portofolio-card">
             <div class="portofolio-img">
@@ -235,7 +231,7 @@
     </div>
   </section>
 
-  <!-- ==================== TESTIMONIAL SECTION ==================== -->
+  <!-- TESTIMONIAL SECTION -->
   <section class="testimonial" id="testimonial">
     <div class="testimonial-container">
       <h2 class="testimonial-title">
@@ -291,7 +287,7 @@
                 <p class="testi-text">Lorem ipsum dolor sit ameT, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit</p>
               </div>
             </div>
-            <!-- Card 5 (off-screen to the right) -->
+            <!-- Card 5 -->
             <div class="testi-card testi-card-pink">
               <div class="testi-photo">
                 <img src="assets/images/rand5.jpeg" alt="Janu Pasha Shandy">
@@ -302,7 +298,7 @@
                 <p class="testi-text">Lorem ipsum dolor sit ameT, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit</p>
               </div>
             </div>
-            <!-- Card 6 (off-screen to the right) -->
+            <!-- Card 6 -->
             <div class="testi-card testi-card-blue">
               <div class="testi-photo">
                 <img src="assets/images/rand8.jpeg" alt="Janu Pasha Shandy">
@@ -322,7 +318,7 @@
     </div>
   </section>
 
-  <!-- ==================== FAQ SECTION ==================== -->
+  <!-- FAQ SECTION -->
   <section class="faq" id="faq">
     <div class="faq-container">
       <h2 class="faq-title">FAQ</h2>
@@ -371,7 +367,7 @@
     </div>
   </section>
 
-  <!-- ==================== CONTACT SECTION ==================== -->
+  <!-- CONTACT SECTION -->
   <section class="contact" id="contact">
     <div class="contact-container">
       <div class="contact-left">
@@ -412,7 +408,7 @@
     </div>
   </section>
 
-  <!-- ==================== FOOTER ==================== -->
+  <!-- FOOTER -->
   <footer class="footer" id="footer">
     <div class="footer-container">
       <div class="footer-top">
@@ -462,7 +458,7 @@
               <circle cx="17.2" cy="6.8" r="0.9" fill="currentColor" stroke="none"/>
             </svg>
           </a>
-          <!-- Facebook (rounded square + hollow f) -->
+          <!-- Facebook -->
           <a href="https://www.facebook.com/OmahTI.UGM/" target="_blank" aria-label="Facebook">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round">
               <rect x="2" y="2" width="20" height="20" rx="4"/>
